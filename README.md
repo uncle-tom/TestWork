@@ -1,1 +1,1 @@
-## [DEMO](https://testwork.uncle-tom.com)
+## [DEMO](https://uncle-tom.github.io/TestWork/)
