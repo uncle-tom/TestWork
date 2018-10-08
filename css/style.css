@@ -1,0 +1,184 @@
+header {
+	height: 105px;
+	color: #ffffff;
+	background-color: #00bff3;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.small-text {
+	font-size: 14px;
+}
+
+.logo img {
+	width: 180px;
+	height: auto;
+}
+
+.logo__info {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.menu__phonenumber a {
+	color: #ffffff;
+	font-size: 30px;
+	margin-right: 30px;
+}
+
+.menu__callback {
+	font-size: 16px;
+	border-bottom: 1px dashed;
+	cursor: pointer;
+  margin-right: 70px;  
+}
+
+.menu__socialbutton li {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	margin-right: 10px;
+}
+
+.menu__socialbutton li:last-child {
+	margin-right: 0px;
+}
+
+.menu__socialbutton-white li {
+	background-color: #ffffff;
+}
+
+.menu__socialbutton-white i {
+	color: #00bff3;
+}
+
+.welcome {
+	height: 550px;
+	position: relative;
+}
+
+.welcome img {
+	width: 100%;
+	height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.toptour {
+	width: 230px;
+	height: 230px;
+	position: absolute;
+	left: 30px;
+	bottom: 50px;
+	background-color: rgba(255, 242, 0, 0.7);
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	padding: 20px;
+}
+
+.toptour__title {
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.toptour__text {
+	font-size: 14px;
+}
+
+.toptour__code {
+	color: #ffffff;
+	background-color: #000000;
+	font-size: 24px;
+	padding: 0 5px;
+}
+
+.hotel__info {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.hotel__name {
+	font-size: 35px;
+	font-weight: 600;
+	border-bottom: 1px solid;
+}
+
+.hotel__price {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.rating__title {
+	font-size: 12px;
+}
+
+.blue-number {
+	width: 50px;
+	height: 50px;
+	color: #ffffff;
+	font-size: 24px;
+	background-color: #00bff3;
+}
+
+.rating__number {
+	font-size: 18px;
+}
+
+.topmessage {
+	font-size: 30px;
+	line-height: 32px;
+}
+
+.topmessage span {
+	font-size: 100px;
+}
+
+.extrim__img img {
+	width: 100%;
+}
+
+.extrim__name {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.extrim__cat {
+	font-size: 14px;
+}
+
+.extrim__price {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.extrim__oldprice {
+	position: relative;
+	font-size: 20px;
+}
+
+.extrim__oldprice:after {
+	content: '';
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(50%);
+	    -ms-transform: translateY(50%);
+	        transform: translateY(50%);
+	background-color: red;
+}
